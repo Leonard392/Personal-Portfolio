@@ -667,7 +667,7 @@ span{
         position: absolute;
         top: 100%;
         right: 0;
-        width: 50%;
+        width: 40%;
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
@@ -675,6 +675,14 @@ span{
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
+    }
+    .navbar.active{
+        display: grid;
+        z-index: 2;
+    }
+    .navbar a{
+        margin-top: 20px;
+        font-size: 2.5rem;
     }
     .home{
         flex-direction: column-reverse;
@@ -692,7 +700,7 @@ span{
         margin: 0 auto;
     }
     .home-img img{
-        width: 56vw;
+        width: 45vw;
     }
     .services h2{
         margin-bottom: 3rem;
