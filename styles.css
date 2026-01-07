@@ -673,8 +673,20 @@ span{
     .logo{
         font-size: 2.8rem;
     }
-    .services{
+    .services-container{
         padding-bottom: 7rem;
+    }
+    .service-box .service-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-height: 200px;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5rem 3rem;
+    }
+    .service-heading{
+        margin: auto;
     }
     .projects .wrapper{
         grid-template-columns: repeat(1,1fr);
@@ -736,6 +748,12 @@ span{
     }
     .services-container{
         grid-template-columns: repeat(1,1fr);
+        width: 70%;
+        margin: auto;
+        
+    }
+    .service-info{
+        padding: 0;
     }
 }
 
