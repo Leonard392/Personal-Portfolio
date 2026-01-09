@@ -783,12 +783,15 @@ span {
     }
 }
 
-@media(max-width:475px) {
+@media(max-width:490px) {
     .home-content h1 {
         font-size: 40px;
     }
 
     .home-content h3 {
         font-size: 20px;
+    }
+    .services-container{
+        width: 90%;
     }
 }
