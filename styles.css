@@ -672,6 +672,19 @@ span {
 }
 
 @media(max-width:991px) {
+    ::-webkit-scrollbar {
+        width: 0;       /* desaparece completamente */
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: transparent;
+        border: none;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
     header {
         padding: 2rem 3%;
     }
