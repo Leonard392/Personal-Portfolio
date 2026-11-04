@@ -439,6 +439,7 @@ span {
 
 .projects {
     background: var(--second-bg-color);
+    align-items: center;
 }
 
 .projects-box {
@@ -466,7 +467,7 @@ span {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1fr, 1fr);
     gap: 3rem;
 }
 
@@ -514,6 +515,30 @@ span {
 
 .project-item p {
     font-size: 1.5rem;
+}
+.livePreview {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    border: 2px solod transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+.livePreview:hover {
+    background-color: var(--second-bg-color);
+    color: var(--main-color);
 }
 
 /*Contact*/
@@ -570,7 +595,7 @@ span {
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 40px 0;
+    padding: 10px 0;
     background-color: var(--second-bg-color);
 }
 
